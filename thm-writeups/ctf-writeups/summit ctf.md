@@ -27,6 +27,7 @@ To stop this, an egress firewall rule is configured as follows:
 - Action: deny
 
 ![](../screenshots/Pasted%20image%2020250531175920.png)
+![](../screenshots/Pasted%20image%2020250531185318.png)
 
 **Flag:**  
 `THM{2ff48a3421a938b388418be273f4806d}`
