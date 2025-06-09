@@ -1,22 +1,12 @@
-Objective  
+Objective:  
 After participating in one too many incident response activities, PicoSecure has decided to conduct a threat simulation and detection engineering engagement to bolster its malware detection capabilities. You have been assigned to work with an external penetration tester in an iterative purple-team scenario. The tester will be attempting to execute malware samples on a simulated internal user workstation. At the same time, you will need to configure PicoSecure's security tools to detect and prevent the malware from executing.
 
 Following the Pyramid of Pain's ascending priority of indicators, your objective is to increase the simulated adversaries' cost of operations and chase them away for good. Each level of the pyramid allows you to detect and prevent various indicators of attack.
 
-Room Prerequisites  
-Completing the preceding rooms in the Cyber Defence Frameworks module will be beneficial before venturing into this challenge. Specifically, the following:
-
-- The Pyramid of Pain  
-- MITRE
-
 Connection Details  
 Please click Start Machine to deploy the application, and navigate to https://10-10-189-101.p.thmlabs.com once the URL has been populated.
 
-Note: It may take a few minutes to deploy the machine entirely. If you receive a "Bad Gateway" response, wait a few minutes and refresh the page.
-
----
-
-## Walkthrough and Flags
+## Writeup and Flags
 
 ### 1. sample1.exe – Hash-Based Detection  
 Once sample1.exe is uploaded and analyzed, the MD5 hash of the sample is extracted and added to the hash blocklist. This approach stops future executions of the exact same binary by flagging the file hash. This is the simplest and least resilient detection method, sitting at the bottom of the Pyramid of Pain.
