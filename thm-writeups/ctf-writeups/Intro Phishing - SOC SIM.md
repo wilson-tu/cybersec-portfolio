@@ -25,9 +25,9 @@ Classify inbound email alerts as true positives (malicious) or false positives (
     
 
 ---
-![[../screenshots/035600.png]]
-![[../screenshots/035619.png]]
-![[../screenshots/035921.png]]
+![](../screenshots/035600.png)
+![](../screenshots/035619.png)
+![](../screenshots/035921.png)
 ### Results
 
 |Metric|Value|
@@ -38,7 +38,7 @@ Classify inbound email alerts as true positives (malicious) or false positives (
 |False Positives|1|
 |Mean Time to Resolve|2.00 minutes|
 |Mean Dwell Time|6.00 minutes|
-![[../screenshots/040314.png]]
+![](../screenshots/040314.png)
 
 ---
 
